@@ -17,6 +17,13 @@ constructor(value, next){
     this.next = next //next linkedlist node
 }
 }
+
+LinkedLists.fromValues= function(...values){
+    const li = new LinkedLists()
+    for(let i = values.length - 1; i >=0;i--){
+        li.insertAtHead(values[i])
+    }
+} //this is a helper function so test can be ran without depending on other tested methods
 //each node in linked list
 module.exports = LinkedLists
 //so we can access in test file

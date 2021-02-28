@@ -18,3 +18,5 @@ setup
 1 setup package.json with npm init -y
 2 download the jest testing library with npm i --save-dev jest
 
+left off 2515 of video, re read an understand how everything works
+

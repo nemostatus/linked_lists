@@ -11,3 +11,10 @@ Yt video src --->
 web dev simplified 10 algorithm/data structure---> https://youtu.be/RcvQagxK_9w
 
 linked lists ----> https://youtu.be/gJjPWA8wpQg
+
+benefit of linked lists - is quicked when working with the first element only
+setup
+-----------
+1 setup package.json with npm init -y
+2 download the jest testing library with npm i --save-dev jest
+

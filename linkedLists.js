@@ -7,7 +7,7 @@ class LinkedLists{
     insertAtHead(data){
  const newNode = new LinkedListNode(data, this.head)
  this.head = newNode 
- length++
+ this.length++
     } //inserts into beginning of list
 }
 

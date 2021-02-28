@@ -32,8 +32,15 @@ describe('with index greater thank list length',()=>{
 describe('with index 0',()=>{
     test('it returns the head',()=>{
         const li = LinkedLists.fromValues(10,20)
-    expect(li.getByIndex(0)).toBe(10)
+    expect(li.getByIndex(0).value).toBe(10)
     })
     })
+
+    describe('with index middle',()=>{
+        test('it returns el at that index',()=>{
+            const li = LinkedLists.fromValues(10,20,30,40)
+        expect(li.getByIndex(2).value).toBe(30)
+        })
+        })
 
 })
